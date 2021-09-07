@@ -1,4 +1,4 @@
-module github.com/sergeui/go-sip-ua
+module github.com/sergeyu/go-sip-ua
 
 go 1.13
 
