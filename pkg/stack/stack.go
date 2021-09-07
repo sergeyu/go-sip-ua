@@ -10,15 +10,15 @@ import (
 	"sync"
 	"time"
 
-	"github.com/cloudwebrtc/go-sip-ua/pkg/auth"
+	"github.com/sergeyu/go-sip-ua/pkg/auth"
 	"github.com/tevino/abool"
 
-	"github.com/cloudwebrtc/go-sip-ua/pkg/utils"
 	"github.com/ghettovoice/gosip/log"
 	"github.com/ghettovoice/gosip/sip"
 	"github.com/ghettovoice/gosip/transaction"
 	"github.com/ghettovoice/gosip/transport"
 	"github.com/ghettovoice/gosip/util"
+	"github.com/sergeyu/go-sip-ua/pkg/utils"
 )
 
 const (

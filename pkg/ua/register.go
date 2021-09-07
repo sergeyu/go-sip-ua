@@ -5,10 +5,10 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/cloudwebrtc/go-sip-ua/pkg/account"
-	"github.com/cloudwebrtc/go-sip-ua/pkg/auth"
 	"github.com/ghettovoice/gosip/sip"
 	"github.com/ghettovoice/gosip/util"
+	"github.com/sergeyu/go-sip-ua/pkg/account"
+	"github.com/sergeyu/go-sip-ua/pkg/auth"
 )
 
 type Register struct {

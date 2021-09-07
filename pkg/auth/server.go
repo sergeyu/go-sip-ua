@@ -9,9 +9,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/cloudwebrtc/go-sip-ua/pkg/utils"
 	"github.com/ghettovoice/gosip/log"
 	"github.com/ghettovoice/gosip/sip"
+	"github.com/sergeyu/go-sip-ua/pkg/utils"
 )
 
 const (

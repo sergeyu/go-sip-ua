@@ -3,20 +3,20 @@ package b2bua
 import (
 	"fmt"
 
-	"github.com/cloudwebrtc/go-sip-ua/examples/b2bua/fcm"
-	"github.com/cloudwebrtc/go-sip-ua/examples/b2bua/pushkit"
-	"github.com/cloudwebrtc/go-sip-ua/examples/b2bua/registry"
+	"github.com/sergeyu/go-sip-ua/examples/b2bua/fcm"
+	"github.com/sergeyu/go-sip-ua/examples/b2bua/pushkit"
+	"github.com/sergeyu/go-sip-ua/examples/b2bua/registry"
 
-	"github.com/cloudwebrtc/go-sip-ua/pkg/account"
-	"github.com/cloudwebrtc/go-sip-ua/pkg/auth"
-	"github.com/cloudwebrtc/go-sip-ua/pkg/session"
-	"github.com/cloudwebrtc/go-sip-ua/pkg/stack"
-	"github.com/cloudwebrtc/go-sip-ua/pkg/ua"
-	"github.com/cloudwebrtc/go-sip-ua/pkg/utils"
 	"github.com/ghettovoice/gosip/log"
 	"github.com/ghettovoice/gosip/sip"
 	"github.com/ghettovoice/gosip/sip/parser"
 	"github.com/ghettovoice/gosip/transport"
+	"github.com/sergeyu/go-sip-ua/pkg/account"
+	"github.com/sergeyu/go-sip-ua/pkg/auth"
+	"github.com/sergeyu/go-sip-ua/pkg/session"
+	"github.com/sergeyu/go-sip-ua/pkg/stack"
+	"github.com/sergeyu/go-sip-ua/pkg/ua"
+	"github.com/sergeyu/go-sip-ua/pkg/utils"
 )
 
 type B2BCall struct {
